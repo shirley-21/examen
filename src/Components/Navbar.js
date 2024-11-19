@@ -7,6 +7,8 @@ const AppNavbar = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
+        <Nav.Link href="#carousel">Inicio</Nav.Link>
+        <Nav.Link href="#info">Información</Nav.Link>
         <Nav.Link href="#register">Registro</Nav.Link>
         <Nav.Link href="#crud">CRUD</Nav.Link>
       </Nav>

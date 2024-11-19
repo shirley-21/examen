@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #3498db;
+  border: none;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
